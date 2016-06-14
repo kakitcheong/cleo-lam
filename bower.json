@@ -1,0 +1,19 @@
+{
+  "name": "cleo-lam",
+  "version": "0.0.0",
+  "authors": [
+    "kakitcheong <kc@slg-studio.com>"
+  ],
+  "description": "Cleo Lam jewlery website",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
