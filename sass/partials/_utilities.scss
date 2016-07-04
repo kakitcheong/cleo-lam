@@ -33,3 +33,11 @@ $breakPt--lg: em(1200);
 		}
 	}
 }
+/*** alpha attribute ***/
+@mixin alpha-attribute($attribute, $color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  #{$attribute}: $solid-color;
+  #{$attribute}: $color;
+}

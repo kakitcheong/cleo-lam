@@ -14,6 +14,9 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "~3.3.6"
+    "bootstrap-sass": "~3.3.6",
+    "maximage": "*",
+    "owl-carousel": "~1.3.2",
+    "jquery-gridder": "~1.4.2"
   }
 }

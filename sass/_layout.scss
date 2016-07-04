@@ -1,0 +1,94 @@
+/*** =====================================================
+This document contains all layout elements used in the application
+
+author: kc-slg
+last update: 21/06/2016
+===================================================== ***/
+
+// contents ------------
+//  - landing page
+//  - header area
+//	- main area
+//	- footer area -- seperate 
+//  - helper class
+//	- layout elements
+// ---------------------
+////////////////////////////////////////////////////////////////////////////////
+//  1. landing page                                                       	  //
+////////////////////////////////////////////////////////////////////////////////
+.home-wrapper{
+	@extend .container-fluid;
+	height: 100%;
+	position: relative;
+}
+////////////////////////////////////////////////////////////////////////////////
+//  2. header                                                        		  //
+////////////////////////////////////////////////////////////////////////////////
+.header{
+	@extend .container;
+
+}
+////////////////////////////////////////////////////////////////////////////////
+//  3. main                                                        		      //
+////////////////////////////////////////////////////////////////////////////////
+.main{
+	@extend .container;
+	overflow: hidden;
+}
+.two-col{
+	@extend .col-xs-12, .col-sm-offset-1, .col-sm-10;
+	&--contact{
+		@extend .two-col;
+		margin-top: $el__spacer--lg;
+	}
+	&__1-of-2{
+		@extend .col-xs-6;
+	}	
+}
+////////////////////////////////////////////////////////////////////////////////
+//  4. footer - modules/footer                                        	      //
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+//  5. helper class                                                       	  //
+////////////////////////////////////////////////////////////////////////////////
+.pull--center{
+	@extend .text-center;
+}
+.pull--left{
+	@extend .pull-left;
+}
+.pull--right{
+	@extend .pull-right;
+}
+.visible--mobile{
+	@extend .visible-xs, .visible-sm, .hidden-md, .hidden-lg; 
+}
+.visible--desktop{
+	@extend .hidden-xs, .hidden-sm, .visible-md, .visible-lg;
+}
+.color__accent{
+	color: $color__accent;
+}
+.push--down{
+	margin-top: $el__spacer--xs;
+}
+/*** javascript hook for putting img into it's parent's background ***/
+.bg__img{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+////////////////////////////////////////////////////////////////////////////////
+//  4. layout elements                                                        //
+////////////////////////////////////////////////////////////////////////////////
+.center{
+	@extend .pull--center;
+	&__btn{
+		@extend .center;
+		margin-top: $el__spacer--xs;
+		@include respond-to(sm-screen){
+			margin-top: $el__spacer--sm;
+		}
+	}
+}

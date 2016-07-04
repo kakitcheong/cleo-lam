@@ -1,0 +1,19 @@
+.home-nav{
+	position: absolute;
+	bottom: $el__spacer--md;
+	&__list{
+
+	}
+	&__item{
+		display: inline;
+		text-align: center;
+	}
+	&__link{
+		color: $color__wht;
+		@include adjust-font-size-to(13px);
+		letter-spacing: em(2);
+		text-transform: uppercase;
+		width: auto;
+		padding: em(30) em(48);
+	}
+}

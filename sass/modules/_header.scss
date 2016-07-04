@@ -1,0 +1,129 @@
+.header{
+	&__navigation{
+		@extend .navbar;
+		margin: $el__spacer--sm 0;
+	}
+}
+.navigation-header{
+	@extend .navbar-header;
+	&__toggle{
+		@extend .pull--left, .visible--mobile, .navbar-toggle;
+		padding: em(6) em(3);
+		border: none;
+		@include border-radius(0, 0);
+		margin:0;
+		@include respond-to(sm-screen){
+			display: block;
+		}
+		.icon-bar{
+			width: 26px;
+			height: 2px;
+			background-color: $color__grey--light;
+			@include border-radius(0, 0);
+			@include transition(all, 0.4s, ease-in-out);
+		}
+		.top-bar {
+	    transform: rotate(45deg);
+	    transform-origin: 0 10%;
+	  }
+	  .middle-bar {
+	    opacity: 0;
+	  }
+	  .bottom-bar {
+	    transform: rotate(-45deg);
+	    transform-origin: 0 90%;
+	  }
+	}
+	&__brand{
+		padding: 0 0 0 $el__spacer--xs;
+	}
+}
+.navigation-collapse{
+	@extend .collapse, .navbar-collapse;
+}
+.main-navigation{
+	@extend .nav, .navbar-nav, .navbar-right;
+	margin-top: $el__spacer--sm;
+	&__item{
+
+	}
+	&__item--search{
+		margin-top: $el__spacer--xs/3;
+	}
+	&__link{
+		@include adjust-font-size-to(13px);
+		text-transform: uppercase;
+		letter-spacing: em(1);
+		color: $color__grey;
+		padding: em(16) em(24) em(8) em(24)!important;
+		&:hover, &:focus{
+			color: inherit;
+			background-color: rgba(0, 0, 0, 0)!important;
+			border-bottom: $el__border;
+		}
+	}
+	.open > a:focus{
+		border-color: $color__accent;
+	}
+}
+.dropdown{
+	&__toggle{
+		@extend .dropdown-toggle;
+	}
+	&__list{
+		@extend .dropdown-menu;
+		min-width: 13em;
+		left:0 !important;
+	}	
+}
+.main-navigation > li > .dropdown__list{
+	@include border-radius;
+	border: none;
+	@include alpha-attribute("background-color", rgba($color__blk, 0.6), white);
+	margin-top: $el__spacer--xs;
+}
+.multi-col{
+	&--two{
+		min-width: 28em;
+	}
+	&__col{
+		@extend .col-xs-12, .col-sm-6;
+	}
+}
+.multi-col-dropdown{
+	padding: em(8) em(24) em(16) em(24);
+	&__item{
+		padding: em(6) 0 em(6) em(12);
+	}
+	&__title{
+		color: $color__accent;
+		padding: em(6) 0 0 0;
+	}
+	&__link{
+		color: $color__wht;
+		&:hover{
+			color: $color__wht;
+			border-bottom: 1px solid $color__wht;
+		}
+	}
+}
+.navigation-form{
+	@extend .navbar-form;
+	margin:0;
+	&__group{
+		@extend .form-group;
+	}
+	&__search{
+		@extend .form-control;
+		font-family: $secondary__font-family;
+		@include adjust-font-size-to(13px);
+		text-transform: uppercase;
+		@include border-radius();
+		border-color: $color__grey--light;
+		&:focus{
+			outline-width: 0;
+			outline: none;
+			border: $el__border; 	
+		}
+	}
+}

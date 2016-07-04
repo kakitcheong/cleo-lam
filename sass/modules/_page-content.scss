@@ -1,0 +1,26 @@
+.page-opening{
+	height: em(520);
+}
+.page-content{
+	&__title{
+		@extend .col-xs-12;
+		margin-top: $el__spacer--md;
+	}
+	&__text{
+		@extend .col-xs-12, .col-sm-offset-1, .col-sm-10;
+		margin-top: $el__spacer--xs;
+	}
+	&__nav{
+		@extend .col-xs-12;
+		margin-top: $el__spacer--md;
+	}
+	&__options{
+		@extend .col-xs-12, .col-sm-offset-2, .col-sm-8;
+		margin-top: $el__spacer--md;	
+	}	
+}
+.options{
+	&__selection{
+		@extend .col-xs-12, .col-sm-4;
+	}
+}

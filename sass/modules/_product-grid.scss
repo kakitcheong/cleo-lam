@@ -1,0 +1,71 @@
+.product-grid{
+	margin-top:$el__spacer--lg;
+	@extend .col-xs-12, .col-sm-offset-1, .col-sm-10;
+	&__item{
+		@extend .col-xs-4;
+	}
+}
+.item{
+	@include border-radius;
+	position: relative;
+	&__img{
+		width: 100%;
+		height: auto;
+	}
+	&__wrap{
+		@extend .pull--center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+    	transform: translate(-50%, -50%);
+		z-index: 99;
+		a{
+			&:hover{
+				background-color: $color__accent;
+			}
+		}
+	}
+	&__wrap__name{
+		color: $color__grey;
+		font-family: $secondary__font-family;
+		@include adjust-font-size-to(38px);
+		text-transform: uppercase;
+		letter-spacing: em(2);
+		font-weight: 200;
+	}
+	&__overlay{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		@include opacity(0.7);
+		@include border-radius();
+		background-color: $color__wht;
+		border: 1px solid $color__grey--light;
+		z-index: 98;
+	}
+	&__wrap__details{
+		@extend .fine-print;
+		color: $color__grey;
+		text-transform: uppercase;
+		letter-spacing: em(1);
+		margin-top: $el__spacer--xs;	
+	}
+	&__wrap__links{
+		margin-top: $el__spacer--xs;
+	}
+}
+.item__link:hover	> .item__name{
+	color: $color__grey;
+}
+// gridder style overwrite
+.gridder-list{
+	display: inline-block;
+	position: relative;
+}
+.gridder-show{
+	padding: $el__spacer--lg;
+	background-color: red;
+}

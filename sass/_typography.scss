@@ -1,0 +1,83 @@
+@import "../fonts/ss-social/ss-social.css";
+@include establish-baseline;
+$default-rhythm-border-style: solid $color__border;
+html{
+	@include adjust-leading-to(4);
+}
+/*** =====================================================
+This document contains all elements used in the application
+
+author: kc-slg
+last update: 24/06/2016
+===================================================== ***/
+
+// contents ------------
+//  - heading styles
+//  - body text
+//  - misc.
+// ---------------------
+////////////////////////////////////////////////////////////////////////////////
+//  1. heading styles                                                         //
+////////////////////////////////////////////////////////////////////////////////
+.h1{
+	font-family: $heading__font-family;
+	@include adjust-font-size-to(24px);
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: em(1);
+	word-spacing: em(3);
+	margin: 0;
+	&--center{
+		@extend .h1;
+		@extend .pull--center;
+	}
+}
+.h2{
+	font-family: $heading__font-family;
+	margin: 0;
+	&--hero{
+		@extend .h2;
+		font-weight: 700;
+		@include adjust-font-size-to(54px);
+		text-transform: uppercase;
+	}
+}
+////////////////////////////////////////////////////////////////////////////////
+//  2. body text                                                         	  //
+////////////////////////////////////////////////////////////////////////////////
+.paragraph{
+	color: $color__grey--light;
+	@include adjust-font-size-to(14px);
+	@include adjust-leading-to(4.5);
+	font-weight: 300;
+	margin-top: em(10);
+	&--alpha{
+		@extend .paragraph;
+		margin-top: 0;
+	}
+	&--contact{
+		@extend .paragraph;
+		font-family: $secondary__font-family;
+		font-weight: 400;
+		color: $color__grey;
+		@include adjust-font-size-to(16px);
+	}
+	&--hero{
+		@extend .paragraph;
+		color: $color__grey;
+	}
+}
+////////////////////////////////////////////////////////////////////////////////
+//  1. misc                                                                   //
+////////////////////////////////////////////////////////////////////////////////
+.fine-print{
+	@include adjust-font-size-to(12px);
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.section-title{
+	font-family: $heading__font-family;
+	font-weight: 700;
+	@include adjust-font-size-to(15px);
+}

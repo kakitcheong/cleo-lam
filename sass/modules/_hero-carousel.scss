@@ -1,0 +1,54 @@
+.hero-carousel{
+	@extend .hidden-xs, .col-sm-12;
+	box-sizing: border-box;
+	//margin-top: $el__spacer--xs;
+	position: relative;
+	@include respond-to(md-screen){
+		//margin-top: $el__spacer--sm;
+	}
+	&__item{
+		position: relative;
+	}
+	&__control-container{
+		position: relative;
+	}
+	&__control{
+		@extend .hidden-xs;
+		position: absolute;
+		right: 7%;
+		bottom: 10%;
+	}
+}
+.hero-carousel-slide{
+	&__img{
+		height: em(520);
+	}
+	&__overlay{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		@include background-image(linear-gradient(-90deg, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 1)));
+	}
+	&__container{
+		width: 86%;
+		position: absolute;
+		left: 5%;
+		top: 10%;
+		@include respond-to(md-screen){
+			width: 40%;
+		}
+	}
+	&__text{
+		margin-top: $el__spacer--sm*1/3;
+	}
+	&__btn{
+		margin-top: $el__spacer--xs;
+	}
+}
+// owl carousel pagination overwrite
+.owl-pagination{
+	position: absolute;
+	bottom: em(20);
+}

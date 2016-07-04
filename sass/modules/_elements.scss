@@ -1,0 +1,123 @@
+/*** =====================================================
+This document contains all elements used in the application
+
+author: kc-slg
+last update: 24/06/2016
+===================================================== ***/
+
+// contents ------------
+//  - bottons
+//  - lists
+//		- h-list
+//		- v-list
+//	- form elements
+// ---------------------
+////////////////////////////////////////////////////////////////////////////////
+//  1. bottons                                                        		  //
+////////////////////////////////////////////////////////////////////////////////
+.btn{
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: $secondary__font-family;
+	@include adjust-font-size-to(13px);
+	letter-spacing: em(1);
+	//padding: em(13) em(22);
+	@include border-radius();
+	@extend .pull--center;
+	&--default{
+		@extend .btn;
+		color: $color__accent;
+		border: $el__border;
+		@include transition(color, 0.4s, ease-in-out);
+	}
+	&--default:hover{
+		color: $color__grey;
+		background-color: $color__wht;
+	}
+	&--default:focus{
+		color: $color__accent;
+	}
+	&--hero{
+		@extend .btn;
+		color: $color__grey;
+		border: 1px solid $color__grey;
+		@include transition(color, 0.4s, ease-in-out);
+	}
+	&--hero:hover{
+		color: $color__accent;
+		border: $el__border;
+	}
+	&--primary{
+		@extend .btn;
+		color: $color__wht;
+		background-color: $color__accent;
+	}
+}
+.dropdown__list--btn{
+	@extend .dropdown__list;
+	width: 100%;
+	@include single-box-shadow(0, 0, 0, 0, rgba(0, 0, 0, 0), fasle);
+	@include border-radius();
+	background-color: $color__accent;
+	li{
+		@extend .pull--center;
+		a{
+			padding-top: $el__spacer--xs/2;
+			color: $color__wht;
+		}
+	}
+}
+////////////////////////////////////////////////////////////////////////////////
+//  2. lists                                                        		  //
+////////////////////////////////////////////////////////////////////////////////
+.h-list{
+	margin: 0 auto;
+	&__item{
+		display: inline;
+		margin-right: $el__spacer--xs;
+		div{
+			display: table-cell;
+    		vertical-align: middle;
+		}
+	}
+	&__link{
+		display: inline-block;
+		width: auto;
+	}	
+}
+.v-list{
+	&__item--footer{
+		margin-top: $el__spacer--xs/3;
+	}
+	&__link--footer{
+		font-family: $heading__font-family;
+		font-weight: 700;
+		@include adjust-font-size-to(15px);
+		letter-spacing: em(1);
+	}
+}
+////////////////////////////////////////////////////////////////////////////////
+//  2. form elements                                                       	  //
+////////////////////////////////////////////////////////////////////////////////
+.form-control{
+	border: $el__border;
+	@include border-radius();
+	&:focus{
+		outline-width: 0;
+		outline: none;
+		border: $el__border; 
+	}
+}
+////////////////////////////////////////////////////////////////////////////////
+//  3. misc.                                                        		  //
+////////////////////////////////////////////////////////////////////////////////
+.newsletter-form{
+	margin-top: $el__spacer--xs/2;
+}
+#email-input{
+	&:focus{
+		outline-width: 0;
+		outline: none;
+		border: $el__border; 
+	}
+}
