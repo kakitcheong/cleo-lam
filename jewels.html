@@ -19,10 +19,17 @@
         <link rel="stylesheet" href="bower_components/jquery-gridder/dist/css/jquery.gridder.min.css">
         <!-- google font --> 
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Open+Sans|Raleway:400,200" rel="stylesheet">
+        <!-- fancybox style -->
+        <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
         <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
         <!--[if IE]>
             <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <![endif]-->
+        <style>
+            ul.gridder{
+                font-size: 0;
+            }
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -199,117 +206,159 @@
                     </div> <!-- /.options__selection -->
                 </div> <!-- /.row -->
             </section> <!-- /.page-content__options -->
-            <section class="product-grid gridder">
-                <div class="row">
-                    <div class="product-grid__item item gridder-list" data-griddercontent="#content1">
-                        <div class="item__link">
-                            <img class="item__img" src="images/product-imgs/product-005.jpg" alt="product-005">
-                            <div class="item__wrap">
-                                <div class="item__wrap__name">I Screw U</div>
-                                <div class="item__wrap__details">
-                                    jade, 18k gold<br>
-                                    diameter 28mm
-                                </div> <!-- /.item__wrap__details -->
-                                <div class="item__wrap__links">
-                                    <a class="btn--default" href="http://www.google.com">Details</a>
-                                    <a class="btn--default" href="#">Quick View</a>
-                                </div> <!-- /.item__wrap__links --> 
-                            </div> <!-- /.item__wrap -->
-                            <div class="item__overlay"></div>
-                        </div> <!-- /.item__link -->
-                    </div> <!-- /.product-grid__item -->
-                    <div class="product-grid__item item gridder-list" data-griddercontent="#content2">
-                        <div class="item__link">
-                            <img class="item__img" src="images/product-imgs/product-004.jpg" alt="product-004">
-                            <div class="item__wrap">
-                                <div class="item__wrap__name">Blink</div>
-                                <div class="item__wrap__details">
-                                    jade, 18k gold<br>
-                                    diameter 28mm
-                                </div> <!-- /.item__wrap__details -->
-                                <div class="item__wrap__links">
-                                    <a class="btn--default" href="#">Details</a>
-                                    <a class="btn--default" href="#">Quick View</a>
-                                </div> <!-- /.item__wrap__links --> 
-                            </div> <!-- /.item__wrap -->
-                            <div class="item__overlay"></div>
-                        </div> <!-- /.item__link -->
-                    </div> <!-- /.product-grid__item -->
-                    <div class="product-grid__item item gridder-list" data-griddercontent="#content3">
-                        <div class="item__link">
-                            <img class="item__img" src="images/product-imgs/product-006.jpg" alt="product-006">
-                            <div class="item__wrap">
-                                <div class="item__wrap__name">Blink Blink</div>
-                                <div class="item__wrap__details">
-                                    jade, 18k gold<br>
-                                    diameter 28mm
-                                </div> <!-- /.item__wrap__details -->
-                                <div class="item__wrap__links">
-                                    <a class="btn--default" href="#">Details</a>
-                                    <a class="btn--default" href="#">Quick View</a>
-                                </div> <!-- /.item__wrap__links --> 
-                            </div> <!-- /.item__wrap -->
-                            <div class="item__overlay"></div>
-                        </div> <!-- /.item__link -->
-                    </div> <!-- /.product-grid__item -->
-                </div> <!-- /.row -->
-                <div class="row">
-                    <div class="product-grid__item item gridder-list" data-griddercontent="#content4">
-                        <div class="item__link">
-                            <img class="item__img" src="images/product-imgs/product-006.jpg" alt="product-006">
-                            <div class="item__wrap">
-                                <div class="item__wrap__name">Blink Blink</div>
-                                <div class="item__wrap__details">
-                                    jade, 18k gold<br>
-                                    diameter 28mm
-                                </div> <!-- /.item__wrap__details -->
-                                <div class="item__wrap__links">
-                                    <a class="btn--default" href="#">Details</a>
-                                    <a class="btn--default" href="#">Quick View</a>
-                                </div> <!-- /.item__wrap__links --> 
-                            </div> <!-- /.item__wrap -->
-                            <div class="item__overlay"></div>
-                        </div> <!-- /.item__link -->
-                    </div> <!-- /.product-grid__item -->
-                    <div class="product-grid__item item gridder-list" data-griddercontent="#content5">
-                        <div class="item__link">
-                            <img class="item__img" src="images/product-imgs/product-005.jpg" alt="product-005">
-                            <div class="item__wrap">
-                                <div class="item__wrap__name">I Screw U</div>
-                                <div class="item__wrap__details">
-                                    jade, 18k gold<br>
-                                    diameter 28mm
-                                </div> <!-- /.item__wrap__details -->
-                                <div class="item__wrap__links">
-                                    <a class="btn--default" href="#">Details</a>
-                                    <a class="btn--default" href="#">Quick View</a>
-                                </div> <!-- /.item__wrap__links --> 
-                            </div> <!-- /.item__wrap -->
-                            <div class="item__overlay"></div>
-                        </div> <!-- /.item__link -->
-                    </div> <!-- /.product-grid__item -->
-                    <div class="product-grid__item item gridder-list" data-griddercontent="#content6">
-                        <div class="item__link">
-                            <img class="item__img" src="images/product-imgs/product-004.jpg" alt="product-004">
-                            <div class="item__wrap">
-                                <div class="item__wrap__name">Blink</div>
-                                <div class="item__wrap__details">
-                                    jade, 18k gold<br>
-                                    diameter 28mm
-                                </div> <!-- /.item__wrap__details -->
-                                <div class="item__wrap__links">
-                                    <a class="btn--default" href="#">Details</a>
-                                    <a class="btn--default" href="#">Quick View</a>
-                                </div> <!-- /.item__wrap__links --> 
-                            </div> <!-- /.item__wrap -->
-                            <div class="item__overlay"></div>
-                        </div> <!-- /.item__link -->
-                    </div> <!-- /.product-grid__item -->
-                </div> <!-- /.row -->
+            <section class="product-grid">
+                <ul class="gridder">
+                    <li class="gridder-list" data-griddercontent="#content1">
+                        <div class="item">
+                            <div class="item__link">
+                                <img class="item__img" src="images/product-imgs/product-005.jpg" alt="product-005">
+                                <div class="item__wrap">
+                                    <div class="item__wrap__name">I Screw U</div>
+                                    <div class="item__wrap__details">
+                                        jade, 18k gold<br>
+                                        diameter 28mm
+                                    </div> <!-- /.item__wrap__details -->
+                                    <div class="item__wrap__links">
+                                        <a class="btn--default" href="#">Quick View</a>
+                                    </div> <!-- /.item__wrap__links --> 
+                                </div> <!-- /.item__wrap -->
+                                <div class="item__overlay"></div>
+                            </div> <!-- /.item__link -->
+                        </div> <!-- /.item -->
+                    </li> <!-- /.gridder-list -->
+                    <li class="gridder-list" data-griddercontent="#content2">
+                        <div class="item">
+                            <div class="item__link">
+                                <img class="item__img" src="images/product-imgs/product-004.jpg" alt="product-004">
+                                <div class="item__wrap">
+                                    <div class="item__wrap__name">Blink</div>
+                                    <div class="item__wrap__details">
+                                        jade, 18k gold<br>
+                                        diameter 28mm
+                                    </div> <!-- /.item__wrap__details -->
+                                    <div class="item__wrap__links">
+                                        <a class="btn--default" href="#">Quick View</a>
+                                    </div> <!-- /.item__wrap__links --> 
+                                </div> <!-- /.item__wrap -->
+                                <div class="item__overlay"></div>
+                            </div> <!-- /.item__link -->
+                        </div> <!-- /.item -->   
+                    </li> <!-- /.gridder-list -->
+                    <li class="gridder-list" data-griddercontent="#content3">
+                        <div class="item">
+                            <div class="item__link">
+                                <img class="item__img" src="images/product-imgs/product-006.jpg" alt="product-006">
+                                <div class="item__wrap">
+                                    <div class="item__wrap__name">Blink Blink</div>
+                                    <div class="item__wrap__details">
+                                        jade, 18k gold<br>
+                                        diameter 28mm
+                                    </div> <!-- /.item__wrap__details -->
+                                    <div class="item__wrap__links">
+                                        <a class="btn--default" href="#">Quick View</a>
+                                    </div> <!-- /.item__wrap__links --> 
+                                </div> <!-- /.item__wrap -->
+                                <div class="item__overlay"></div>
+                            </div> <!-- /.item__link -->
+                        </div> <!-- /.product-grid__item -->    
+                    </li> <!-- /.gridder-list -->
+                    <li class="gridder-list" data-griddercontent="#content4">
+                        <div class="item">
+                            <div class="item__link">
+                                <img class="item__img" src="images/product-imgs/product-006.jpg" alt="product-006">
+                                <div class="item__wrap">
+                                    <div class="item__wrap__name">Blink Blink</div>
+                                    <div class="item__wrap__details">
+                                        jade, 18k gold<br>
+                                        diameter 28mm
+                                    </div> <!-- /.item__wrap__details -->
+                                    <div class="item__wrap__links">
+                                        <a class="btn--default" href="#">Quick View</a>
+                                    </div> <!-- /.item__wrap__links --> 
+                                </div> <!-- /.item__wrap -->
+                                <div class="item__overlay"></div>
+                            </div> <!-- /.item__link -->
+                        </div> <!-- /.product-grid__item -->    
+                    </li> <!-- /.gridder-list -->
+                    <li class="gridder-list" data-griddercontent="#content5">
+                        <div class="item">
+                            <div class="item__link">
+                                <img class="item__img" src="images/product-imgs/product-005.jpg" alt="product-005">
+                                <div class="item__wrap">
+                                    <div class="item__wrap__name">I Screw U</div>
+                                    <div class="item__wrap__details">
+                                        jade, 18k gold<br>
+                                        diameter 28mm
+                                    </div> <!-- /.item__wrap__details -->
+                                    <div class="item__wrap__links">
+                                        <a class="btn--default" href="#">Quick View</a>
+                                    </div> <!-- /.item__wrap__links --> 
+                                </div> <!-- /.item__wrap -->
+                                <div class="item__overlay"></div>
+                            </div> <!-- /.item__link -->
+                        </div> <!-- /.item -->
+                    </li> <!-- /.gridder-list -->
+                    <li class="gridder-list" data-griddercontent="#content6">
+                        <div class="item">
+                            <div class="item__link">
+                                <img class="item__img" src="images/product-imgs/product-004.jpg" alt="product-004">
+                                <div class="item__wrap">
+                                    <div class="item__wrap__name">Blink</div>
+                                    <div class="item__wrap__details">
+                                        jade, 18k gold<br>
+                                        diameter 28mm
+                                    </div> <!-- /.item__wrap__details -->
+                                    <div class="item__wrap__links">
+                                        <a class="btn--default" href="#">Quick View</a>
+                                    </div> <!-- /.item__wrap__links --> 
+                                </div> <!-- /.item__wrap -->
+                                <div class="item__overlay"></div>
+                            </div> <!-- /.item__link -->
+                        </div> <!-- /.item -->   
+                    </li> <!-- /.gridder-list -->
+                </ul> <!-- /.gridder -->
             </section> <!-- /.product-grid -->
             <div id="content1" class="gridder-content">
-                Hello
-                <a class="btn--default" href="http://www.google.com">Details</a>
+                <div class="quick-view">
+                    <div class="row">
+                        <div class="quick-view__carousel carousel--quick">
+                            <div class="carousel--quick__img">
+                                <a class="fancybox" rel="group" href="images/product-imgs/product-001.jpg"><img src="images/product-imgs/product-001.jpg" alt="" /></a> 
+                            </div>
+                            <div class="carousel--quick__img">
+                                <a class="fancybox" rel="group" href="images/product-imgs/product-002.jpg"><img src="images/product-imgs/product-002.jpg" alt="" /></a> 
+                            </div>
+                            <div class="carousel--quick__img">
+                                <a class="fancybox" rel="group" href="images/product-imgs/product-003.jpg"><img src="images/product-imgs/product-003.jpg" alt="" /></a> 
+                            </div>
+                            <div class="carousel--quick__img">
+                                <a class="fancybox" rel="group" href="images/product-imgs/product-004.jpg"><img src="images/product-imgs/product-004.jpg" alt="" /></a> 
+                            </div>
+                            <div class="carousel--quick__img">
+                                <a class="fancybox" rel="group" href="images/product-imgs/product-005.jpg"><img src="images/product-imgs/product-005.jpg" alt="" /></a> 
+                            </div>
+                        </div> <!-- /.quick-view__carousel -->
+                    </div> <!-- /.row -->
+                    <div class="row">
+                        <div class="quick-view__details">
+                            <div class="quick-view__product-title">
+                                <h3 class="name">I Screw U</h3>    
+                            </div> <!-- /.quick-view__product-title -->
+                            <div class="quick-view__product-spec">
+                                jade, 18k gold<br>
+                                diameter 28mm<br>
+                                # CL8820    
+                            </div> <!-- /.quick-view__product-spec -->
+                        </div> <!-- /.quick-view__details -->
+                    </div> <!-- /.row -->
+                    <div class="row">
+                        <nav class="quick-view__nav">
+                            <a class="btn--default" href="#">Details</a>
+                            <a class="btn--default" href="#">Enquire</a>
+                            <a class="btn--default" href="#">Love it!</a>
+                        </nav> <!-- /.quick-view__nav -->
+                    </div> <!-- /.row -->   
+                </div> <!-- /.quick-view -->
             </div>
             <div id="content2" class="gridder-content">
                 Content goes here.
@@ -326,6 +375,7 @@
             <div id="content6" class="gridder-content">
                 Content goes here.
             </div>
+            <!-- temp structure -->
         </main> <!-- /.main -->
         <footer class="footer">
             <div class="footer__container">
@@ -404,6 +454,9 @@
         <!--
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         -->
+        <!-- fancybox -->    
+        <script type="text/javascript" src="bower_components/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script type="text/javascript" src="bower_components/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
         <script>
             $(document).ready(function(){
                 //replace imgs inside carousel with a background image
@@ -415,6 +468,16 @@
                     });
                 }
                 bgReplace();
+                /*
+                function bgReplaceQuick(){
+                    $(".bg__img--quck img").each(function(){
+                        var imgSrcQuick = $(this).attr("src");
+                        console.log("yay");
+                        $(this).parents().eq(1).css({'background-image' : 'url('+ imgSrcQuick +')'});
+                        $(this).remove();
+                    });
+                }
+                */
                 $(".dropdown__trigger--footer").hover(function(){
                     $(this).next().css({"opacity":"1", "left":"90%"});
                 }, function(){
@@ -443,7 +506,7 @@
                 imgHover();
                 //owl carousel -- hero
                 $(".hero-carousel").owlCarousel({
-                    items:1,
+                    items: 1,
                     itemsDesktop: [1199,1],
                     navigation: false,
                     pagination: true
@@ -459,17 +522,22 @@
                     animationSpeed: 400,
                     animationEasing: "easeInOutExpo",
                     showNav: true,                      // Show Navigation
-                    nextText: "Next",                   // Next button text
-                    prevText: "Previous",               // Previous button text
+                    nextText: "Next Product",                   // Next button text
+                    prevText: "Previous Product",               // Previous button text
                     closeText: "Close",                 // Close button text
                     onStart: function(){
                         //Gridder Inititialized
                     },
                     onContent: function(){
                         //Gridder Content Loaded
-                        console.log("yay");
-                        $("gridder-show").after('<div class="clearfix"></div>');
-
+                        //owl carousel -- quick-view
+                        $(".quick-view__carousel").owlCarousel({
+                            items: 4,
+                            itemsDesktop: [1199,1],
+                            navigation: false,
+                            pagination: true
+                        });
+                        $(".fancybox").fancybox();    
                     },
                     onClosed: function(){
                         //Gridder Closed

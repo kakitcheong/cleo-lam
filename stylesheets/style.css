@@ -1979,7 +1979,7 @@ mark,
 }
 
 /* line 92, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
-.text-center, .pull--center, .h1--center, .center, .center__btn, .btn, .btn--default, .btn--hero, .btn--primary, .dropdown__list--btn li, .item__wrap, .footer__copy {
+.text-center, .pull--center, .h1--center, .center, .center__btn, .btn, .btn--default, .btn--hero, .btn--primary, .dropdown__list--btn li, .breadcrumb-bar, .item__wrap, .quick-view, .footer__copy {
   text-align: center;
 }
 
@@ -2431,7 +2431,7 @@ pre code {
 }
 
 /* line 11, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer__col--2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-sm-4, .options__selection, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .two-col__1-of-2, .col-sm-6, .multi-col__col, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .page-content__options, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .two-col, .two-col--contact, .page-content__text, .product-grid, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .footer__copy, .col-sm-12, .hero-carousel, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer__col--2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-sm-4, .options__selection, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .two-col__1-of-2, .col-sm-6, .multi-col__col, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .page-content__options, .quick-view__carousel, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .two-col, .two-col--contact, .page-content__text, .product-grid, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .footer__copy, .col-sm-12, .hero-carousel, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2439,7 +2439,7 @@ pre code {
 }
 
 /* line 27, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .footer__col--2, .col-xs-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-xs-5, .col-xs-6, .two-col__1-of-2, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .footer__copy {
+.col-xs-1, .col-xs-2, .footer__col--2, .col-xs-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-xs-5, .col-xs-6, .two-col__1-of-2, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .footer__copy {
   float: left;
 }
 
@@ -2499,7 +2499,7 @@ pre code {
 }
 
 /* line 35, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .footer__copy {
+.col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .footer__copy {
   width: 100%;
 }
 
@@ -2700,7 +2700,7 @@ pre code {
 
 @media (min-width: 768px) {
   /* line 27, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .options__selection, .col-sm-5, .col-sm-6, .multi-col__col, .col-sm-7, .col-sm-8, .page-content__options, .col-sm-9, .col-sm-10, .two-col, .two-col--contact, .page-content__text, .product-grid, .col-sm-11, .col-sm-12, .hero-carousel {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .options__selection, .col-sm-5, .col-sm-6, .multi-col__col, .col-sm-7, .col-sm-8, .page-content__options, .quick-view__carousel, .col-sm-9, .col-sm-10, .two-col, .two-col--contact, .page-content__text, .product-grid, .col-sm-11, .col-sm-12, .hero-carousel {
     float: left;
   }
 
@@ -2740,7 +2740,7 @@ pre code {
   }
 
   /* line 35, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-8, .page-content__options {
+  .col-sm-8, .page-content__options, .quick-view__carousel {
     width: 66.66667%;
   }
 
@@ -2905,7 +2905,7 @@ pre code {
   }
 
   /* line 60, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-offset-2, .page-content__options {
+  .col-sm-offset-2, .page-content__options, .quick-view__carousel {
     margin-left: 16.66667%;
   }
 
@@ -6471,7 +6471,7 @@ tbody.collapse.in, tbody.in.navigation-collapse {
 }
 
 /* line 6, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss */
-.breadcrumb {
+.breadcrumb, .breadcrumb-bar__list {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
@@ -6479,17 +6479,17 @@ tbody.collapse.in, tbody.in.navigation-collapse {
   border-radius: 4px;
 }
 /* line 13, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss */
-.breadcrumb > li {
+.breadcrumb > li, .breadcrumb-bar__list > li {
   display: inline-block;
 }
 /* line 16, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss */
-.breadcrumb > li + li:before {
+.breadcrumb > li + li:before, .breadcrumb-bar__list > li + li:before {
   content: "/ ";
   padding: 0 5px;
   color: #ccc;
 }
 /* line 25, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss */
-.breadcrumb > .active {
+.breadcrumb > .active, .breadcrumb-bar__list > .active {
   color: #777777;
 }
 
@@ -8936,7 +8936,7 @@ button.close {
 
 @media (max-width: 767px) {
   /* line 18, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-xs, .visible--desktop, .hero-carousel, .hero-carousel__control {
+  .hidden-xs, .visible--desktop, .breadcrumb-bar, .hero-carousel, .hero-carousel__control {
     display: none !important;
   }
 }
@@ -9194,7 +9194,19 @@ last update: 24/06/2016
   text-transform: uppercase;
 }
 
-/* line 48, ../sass/_typography.scss */
+/* line 46, ../sass/_typography.scss */
+.name {
+  color: #555555;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+  word-spacing: 0.1875em;
+}
+
+/* line 58, ../sass/_typography.scss */
 .paragraph, .paragraph--alpha, .paragraph--contact, .paragraph--hero {
   color: #9E9E9E;
   font-size: 0.875em;
@@ -9203,11 +9215,11 @@ last update: 24/06/2016
   font-weight: 300;
   margin-top: 0.625em;
 }
-/* line 54, ../sass/_typography.scss */
+/* line 64, ../sass/_typography.scss */
 .paragraph--alpha {
   margin-top: 0;
 }
-/* line 58, ../sass/_typography.scss */
+/* line 68, ../sass/_typography.scss */
 .paragraph--contact {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -9215,23 +9227,23 @@ last update: 24/06/2016
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 65, ../sass/_typography.scss */
+/* line 75, ../sass/_typography.scss */
 .paragraph--hero {
   color: #555555;
 }
 
-/* line 73, ../sass/_typography.scss */
-.fine-print, .item__wrap__details {
+/* line 83, ../sass/_typography.scss */
+.fine-print, .item__wrap__details, .quick-view__product-spec, .gridder-nav, .gridder-close {
   font-size: 0.75em;
   line-height: 1.5em;
 }
 
-/* line 76, ../sass/_typography.scss */
+/* line 86, ../sass/_typography.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 79, ../sass/_typography.scss */
+/* line 89, ../sass/_typography.scss */
 .section-title {
   font-family: "Frank Ruhl Libre", sans-serif;
   font-weight: 700;
@@ -9305,7 +9317,7 @@ This document contains all elements used in the application
 author: kc-slg
 last update: 24/06/2016
 ===================================================== ***/
-/* line 18, ../sass/modules/_elements.scss */
+/* line 19, ../sass/modules/_elements.scss */
 .btn, .btn--default, .btn--hero, .btn--primary {
   display: inline-block;
   text-transform: uppercase;
@@ -9317,7 +9329,7 @@ last update: 24/06/2016
   -webkit-border-radius: 0.625em;
   border-radius: 0.625em;
 }
-/* line 27, ../sass/modules/_elements.scss */
+/* line 28, ../sass/modules/_elements.scss */
 .btn--default {
   color: #ebb788;
   border: 1px solid #ebb788;
@@ -9326,16 +9338,16 @@ last update: 24/06/2016
   -webkit-transition: color, 0.4s, ease-in-out;
   transition: color, 0.4s, ease-in-out;
 }
-/* line 33, ../sass/modules/_elements.scss */
+/* line 34, ../sass/modules/_elements.scss */
 .btn--default:hover {
   color: #555555;
   background-color: #ffffff;
 }
-/* line 37, ../sass/modules/_elements.scss */
+/* line 38, ../sass/modules/_elements.scss */
 .btn--default:focus {
-  color: #ebb788;
+  color: #555555;
 }
-/* line 40, ../sass/modules/_elements.scss */
+/* line 41, ../sass/modules/_elements.scss */
 .btn--hero {
   color: #555555;
   border: 1px solid #555555;
@@ -9344,18 +9356,18 @@ last update: 24/06/2016
   -webkit-transition: color, 0.4s, ease-in-out;
   transition: color, 0.4s, ease-in-out;
 }
-/* line 46, ../sass/modules/_elements.scss */
+/* line 47, ../sass/modules/_elements.scss */
 .btn--hero:hover {
   color: #ebb788;
   border: 1px solid #ebb788;
 }
-/* line 50, ../sass/modules/_elements.scss */
+/* line 51, ../sass/modules/_elements.scss */
 .btn--primary {
   color: #ffffff;
   background-color: #ebb788;
 }
 
-/* line 56, ../sass/modules/_elements.scss */
+/* line 57, ../sass/modules/_elements.scss */
 .dropdown__list--btn {
   width: 100%;
   -moz-box-shadow: inset 0 0 0 0 transparent;
@@ -9366,37 +9378,37 @@ last update: 24/06/2016
   border-radius: 0.625em;
   background-color: #ebb788;
 }
-/* line 64, ../sass/modules/_elements.scss */
+/* line 65, ../sass/modules/_elements.scss */
 .dropdown__list--btn li a {
   padding-top: 0.5em;
   color: #ffffff;
 }
 
-/* line 73, ../sass/modules/_elements.scss */
+/* line 74, ../sass/modules/_elements.scss */
 .h-list {
   margin: 0 auto;
 }
-/* line 75, ../sass/modules/_elements.scss */
+/* line 76, ../sass/modules/_elements.scss */
 .h-list__item {
   display: inline;
   margin-right: 1em;
 }
-/* line 78, ../sass/modules/_elements.scss */
+/* line 79, ../sass/modules/_elements.scss */
 .h-list__item div {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 83, ../sass/modules/_elements.scss */
+/* line 84, ../sass/modules/_elements.scss */
 .h-list__link {
   display: inline-block;
   width: auto;
 }
 
-/* line 89, ../sass/modules/_elements.scss */
+/* line 90, ../sass/modules/_elements.scss */
 .v-list__item--footer {
   margin-top: 0.33333em;
 }
-/* line 92, ../sass/modules/_elements.scss */
+/* line 93, ../sass/modules/_elements.scss */
 .v-list__link--footer {
   font-family: "Frank Ruhl Libre", sans-serif;
   font-weight: 700;
@@ -9405,30 +9417,61 @@ last update: 24/06/2016
   letter-spacing: 0.0625em;
 }
 
-/* line 102, ../sass/modules/_elements.scss */
+/* line 103, ../sass/modules/_elements.scss */
 .form-control, .navigation-form__search {
   border: 1px solid #ebb788;
   -moz-border-radius: 0.625em;
   -webkit-border-radius: 0.625em;
   border-radius: 0.625em;
 }
-/* line 105, ../sass/modules/_elements.scss */
+/* line 106, ../sass/modules/_elements.scss */
 .form-control:focus, .navigation-form__search:focus {
   outline-width: 0;
   outline: none;
   border: 1px solid #ebb788;
 }
 
-/* line 114, ../sass/modules/_elements.scss */
+/* line 115, ../sass/modules/_elements.scss */
 .newsletter-form {
   margin-top: 0.5em;
 }
 
-/* line 118, ../sass/modules/_elements.scss */
+/* line 119, ../sass/modules/_elements.scss */
 #email-input:focus {
   outline-width: 0;
   outline: none;
   border: 1px solid #ebb788;
+}
+
+/* line 130, ../sass/modules/_elements.scss */
+.breadcrumb-bar__list {
+  background-color: transparent;
+  padding: 0 0 0.5em 0;
+}
+@media only screen and (min-width: 62em) {
+  /* line 130, ../sass/modules/_elements.scss */
+  .breadcrumb-bar__list {
+    padding: 1em 1.2em;
+  }
+}
+/* line 141, ../sass/modules/_elements.scss */
+.breadcrumb-bar__link, .breadcrumb-bar__link--active {
+  font-size: 0.8125em;
+  line-height: 1.38462em;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+  color: #555555;
+}
+/* line 147, ../sass/modules/_elements.scss */
+.breadcrumb-bar__link--active {
+  color: #ebb788;
+}
+
+/* line 152, ../sass/modules/_elements.scss */
+.breadcrumb-bar__list > li + li:before {
+  content: "|";
+  padding: 0 0.375em;
+  color: #ebb788;
 }
 
 /* line 1, ../sass/modules/_centered-content.scss */
@@ -9641,12 +9684,17 @@ last update: 24/06/2016
   right: 7%;
   bottom: 10%;
 }
+/* line 22, ../sass/modules/_hero-carousel.scss */
+.hero-carousel .owl-pagination {
+  position: absolute;
+  bottom: 1.25em;
+}
 
-/* line 23, ../sass/modules/_hero-carousel.scss */
+/* line 28, ../sass/modules/_hero-carousel.scss */
 .hero-carousel-slide__img {
   height: 32.5em;
 }
-/* line 26, ../sass/modules/_hero-carousel.scss */
+/* line 31, ../sass/modules/_hero-carousel.scss */
 .hero-carousel-slide__overlay {
   width: 100%;
   height: 100%;
@@ -9659,7 +9707,7 @@ last update: 24/06/2016
   background-image: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0), #ffffff);
   background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0), #ffffff);
 }
-/* line 34, ../sass/modules/_hero-carousel.scss */
+/* line 39, ../sass/modules/_hero-carousel.scss */
 .hero-carousel-slide__container {
   width: 86%;
   position: absolute;
@@ -9667,24 +9715,18 @@ last update: 24/06/2016
   top: 10%;
 }
 @media only screen and (min-width: 62em) {
-  /* line 34, ../sass/modules/_hero-carousel.scss */
+  /* line 39, ../sass/modules/_hero-carousel.scss */
   .hero-carousel-slide__container {
     width: 40%;
   }
 }
-/* line 43, ../sass/modules/_hero-carousel.scss */
+/* line 48, ../sass/modules/_hero-carousel.scss */
 .hero-carousel-slide__text {
   margin-top: 0.66667em;
 }
-/* line 46, ../sass/modules/_hero-carousel.scss */
+/* line 51, ../sass/modules/_hero-carousel.scss */
 .hero-carousel-slide__btn {
   margin-top: 1em;
-}
-
-/* line 51, ../sass/modules/_hero-carousel.scss */
-.owl-pagination {
-  position: absolute;
-  bottom: 1.25em;
 }
 
 /* line 1, ../sass/modules/_page-content.scss */
@@ -9766,7 +9808,7 @@ last update: 24/06/2016
   z-index: 98;
 }
 /* line 49, ../sass/modules/_product-grid.scss */
-.item__wrap__details {
+.item__wrap__details, .quick-view__product-spec {
   color: #555555;
   text-transform: uppercase;
   letter-spacing: 0.0625em;
@@ -9786,12 +9828,60 @@ last update: 24/06/2016
 .gridder-list {
   display: inline-block;
   position: relative;
+  vertical-align: top;
 }
 
-/* line 68, ../sass/modules/_product-grid.scss */
+/* line 69, ../sass/modules/_product-grid.scss */
 .gridder-show {
   padding: 4em;
-  background-color: red;
+}
+
+/* line 72, ../sass/modules/_product-grid.scss */
+.gridder-close {
+  float: right;
+  clear: both;
+}
+
+/* line 76, ../sass/modules/_product-grid.scss */
+.gridder-nav, .gridder-close {
+  color: #9E9E9E;
+  text-transform: uppercase;
+}
+
+/* line 82, ../sass/modules/_product-grid.scss */
+.gridder-nav:focus {
+  color: #ebb788;
+}
+
+/* line 86, ../sass/modules/_product-grid.scss */
+.gridder-nav.next:before {
+  content: "|";
+  color: #000000;
+  padding: 0 1em;
+}
+
+/* line 94, ../sass/modules/_product-grid.scss */
+.quick-view__carousel {
+  margin-top: 2em;
+}
+/* line 98, ../sass/modules/_product-grid.scss */
+.quick-view__details {
+  margin-top: 1em;
+}
+/* line 105, ../sass/modules/_product-grid.scss */
+.quick-view__nav {
+  margin-top: 2em;
+}
+
+/* line 5, ../sass/modules/_carousel.scss */
+.carousel--quick__img {
+  width: 5.625em;
+  height: 5.625em;
+}
+/* line 8, ../sass/modules/_carousel.scss */
+.carousel--quick__img img {
+  width: 100%;
+  height: auto;
 }
 
 /* line 2, ../sass/modules/_contact.scss */

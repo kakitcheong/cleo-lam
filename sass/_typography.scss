@@ -42,6 +42,16 @@ last update: 24/06/2016
 		text-transform: uppercase;
 	}
 }
+// h3
+.name{
+	color: $color__grey;
+	font-family: $heading__font-family;
+	font-weight: 700;
+	@include adjust-font-size-to(24px);
+	text-transform: uppercase;
+	letter-spacing: em(1);
+	word-spacing: em(3);
+}
 ////////////////////////////////////////////////////////////////////////////////
 //  2. body text                                                         	  //
 ////////////////////////////////////////////////////////////////////////////////

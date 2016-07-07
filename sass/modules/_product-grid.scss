@@ -64,8 +64,45 @@
 .gridder-list{
 	display: inline-block;
 	position: relative;
+	vertical-align: top;
 }
 .gridder-show{
 	padding: $el__spacer--lg;
-	background-color: red;
+}
+.gridder-close{
+	float:right;
+	clear: both;
+}
+.gridder-nav, .gridder-close{
+	@extend .fine-print;
+	color: $color__grey--light;
+	text-transform: uppercase;
+}
+.gridder-nav{
+	&:focus{
+		color:$color__accent;
+	}
+}
+.gridder-nav.next:before{
+	content: "|";
+	color: $color__blk;
+	padding: 0 $el__spacer--xs;
+}
+// gridder style overwrite
+.quick-view{
+	@extend .pull--center;
+	&__carousel{
+		@extend .col-xs-12, .col-sm-offset-2, .col-sm-8;
+		margin-top: $el__spacer--sm;
+	}
+	&__details{
+		@extend .col-xs-12;
+		margin-top: $el__spacer--xs;
+	}
+	&__product-spec{
+		@extend .item__wrap__details;
+	}
+	&__nav{
+		margin-top: $el__spacer--sm;
+	}
 }

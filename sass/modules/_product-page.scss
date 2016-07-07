@@ -1,0 +1,11 @@
+.product-details{
+	&__more{
+
+	}
+	&__more:before{
+		content: "View more from the";
+	}
+	&__more:after{
+		content: "collection";
+	}
+}

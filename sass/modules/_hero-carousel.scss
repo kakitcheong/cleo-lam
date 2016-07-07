@@ -18,6 +18,11 @@
 		right: 7%;
 		bottom: 10%;
 	}
+	// owl carousel pagination overwrite
+	.owl-pagination{
+		position: absolute;
+		bottom: em(20);
+	}
 }
 .hero-carousel-slide{
 	&__img{
@@ -46,9 +51,4 @@
 	&__btn{
 		margin-top: $el__spacer--xs;
 	}
-}
-// owl carousel pagination overwrite
-.owl-pagination{
-	position: absolute;
-	bottom: em(20);
 }

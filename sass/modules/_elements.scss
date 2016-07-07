@@ -11,6 +11,7 @@ last update: 24/06/2016
 //		- h-list
 //		- v-list
 //	- form elements
+//  - breadcrumb-bar
 // ---------------------
 ////////////////////////////////////////////////////////////////////////////////
 //  1. bottons                                                        		  //
@@ -35,7 +36,7 @@ last update: 24/06/2016
 		background-color: $color__wht;
 	}
 	&--default:focus{
-		color: $color__accent;
+		color: $color__grey;
 	}
 	&--hero{
 		@extend .btn;
@@ -120,4 +121,36 @@ last update: 24/06/2016
 		outline: none;
 		border: $el__border; 
 	}
+}
+////////////////////////////////////////////////////////////////////////////////
+//  3. breadcrumb-bar                                                         //
+////////////////////////////////////////////////////////////////////////////////
+.breadcrumb-bar{
+	@extend .hidden-xs, .pull--center;
+	&__list{
+		@extend .breadcrumb;
+		background-color: transparent;
+		padding: 0 0 $el__spacer--xs/2 0;
+		@include respond-to(md-screen){
+			padding: $el__spacer--xs $el__spacer--xs*1.2;
+		}
+	}
+	&__item{
+
+	}
+	&__link{
+		@include adjust-font-size-to(13px);
+		text-transform: uppercase;
+		letter-spacing: em(1);
+		color: $color__grey;	
+	}
+	&__link--active{
+		@extend .breadcrumb-bar__link;
+		color: $color__accent;
+	}
+}
+.breadcrumb-bar__list > li + li:before{
+	content: "|";
+	padding: 0 em(6);
+	color: $color__accent;
 }

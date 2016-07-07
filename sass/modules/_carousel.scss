@@ -1,0 +1,13 @@
+.carousel{
+	&--quick{
+
+	}
+	&--quick__img{
+		width: em(90);
+		height: em(90);
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
