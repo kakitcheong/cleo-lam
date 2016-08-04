@@ -10,4 +10,15 @@
 			height: auto;
 		}
 	}
+	&--suggestion{
+		@extend .col-xs-12, .col-sm-offset-1, .col-sm-10;
+		margin-top: $el__spacer--sm;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	&__item{
+		margin-right: em(20);
+	}
 }

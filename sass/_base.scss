@@ -7,10 +7,10 @@ html {
 }
 body{
 	background-color: $color__background;	
-	font-family: $base__font-family;
+	font-family: $base__font-family;	
 }
 a{
-	color: inherit;
+	color: $color__grey;
 	font-family: $secondary__font-family;
 	text-decoration: none;
 	@include transition(color, 0.4s, ease-in);
@@ -20,7 +20,7 @@ a{
 		@include transition(color, 0.6s, ease-out);
 	}
 	&:focus{
-		color: $color__wht;
+		color: $color__accent;
 		text-decoration: none !important;
 	}
 }

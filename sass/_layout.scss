@@ -37,9 +37,9 @@ last update: 21/06/2016
 }
 .two-col{
 	@extend .col-xs-12, .col-sm-offset-1, .col-sm-10;
+	margin-top: $el__spacer--lg;
 	&--contact{
 		@extend .two-col;
-		margin-top: $el__spacer--lg;
 	}
 	&__1-of-2{
 		@extend .col-xs-6;

@@ -1,0 +1,27 @@
+.product-images{
+	&__slieds{
+
+	}
+	&__image{
+		
+	}
+}
+/** Slies JS style overwrite **/
+.slidesjs {
+  &-pagination {
+    li {
+		display: inline-block;
+		box-sizing: border-box;
+		width: 18%;
+		margin-top: $el__spacer--xs;
+		margin-right: 2.5%;
+		img{
+			width: 100%;
+			height: auto;
+		}
+    }
+    li:nth-child(5n+5){
+    	margin-right: 0;
+    }
+  }
+}

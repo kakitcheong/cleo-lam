@@ -43,7 +43,7 @@
 		@include opacity(0.7);
 		@include border-radius();
 		background-color: $color__wht;
-		border: 1px solid $color__grey--light;
+		border: $el__border--light;
 		z-index: 98;
 	}
 	&__wrap__details{

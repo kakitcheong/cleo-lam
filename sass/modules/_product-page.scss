@@ -1,4 +1,10 @@
 .product-details{
+	&__spec{
+		@extend .fine-print;
+		color: $color__grey;
+		text-transform: uppercase;
+		letter-spacing: em(1);
+	}
 	&__more{
 
 	}
@@ -7,5 +13,30 @@
 	}
 	&__more:after{
 		content: "collection";
+	}
+	&__nav{
+		margin-top: $el__spacer--sm;
+		@include leading-border();
+	}
+	&__social{
+		margin-top: $el__spacer--xs*1.2;
+		@include leading-border();
+		.h-list{
+			margin-top: $el__spacer--xs/3;
+		}
+	}
+	&__pagination{
+		margin-top: $el__spacer--xs;
+		@include leading-border();	
+	}
+	&__link{
+		text-transform: uppercase;
+	}
+}
+.product-suggestion{
+	@extend .col-xs-12;
+	margin-top: $el__spacer--lg*2;
+	&__title{
+		@extend .h2, .pull--center;
 	}
 }

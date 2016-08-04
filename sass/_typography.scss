@@ -1,6 +1,6 @@
 @import "../fonts/ss-social/ss-social.css";
 @include establish-baseline;
-$default-rhythm-border-style: solid $color__border;
+$default-rhythm-border-style: solid $color__grey;
 html{
 	@include adjust-leading-to(4);
 }
@@ -34,6 +34,9 @@ last update: 24/06/2016
 }
 .h2{
 	font-family: $heading__font-family;
+	@include adjust-font-size-to(18px);
+	font-weight: 700;
+	letter-spacing: em(1);
 	margin: 0;
 	&--hero{
 		@extend .h2;

@@ -57,7 +57,7 @@ last update: 24/06/2016
 .dropdown__list--btn{
 	@extend .dropdown__list;
 	width: 100%;
-	@include single-box-shadow(0, 0, 0, 0, rgba(0, 0, 0, 0), fasle);
+	@include single-box-shadow(0, 0, 0, 0, rgba(0, 0, 0, 0), inset);
 	@include border-radius();
 	background-color: $color__accent;
 	li{
@@ -87,6 +87,9 @@ last update: 24/06/2016
 	}	
 }
 .v-list{
+	&__item{
+		margin-top: $el__spacer--xs;
+	}
 	&__item--footer{
 		margin-top: $el__spacer--xs/3;
 	}
@@ -126,7 +129,7 @@ last update: 24/06/2016
 //  3. breadcrumb-bar                                                         //
 ////////////////////////////////////////////////////////////////////////////////
 .breadcrumb-bar{
-	@extend .hidden-xs, .pull--center;
+	@extend .hidden-xs, .col-sm-offset-1, .col-sm-10;
 	&__list{
 		@extend .breadcrumb;
 		background-color: transparent;

@@ -1835,7 +1835,7 @@ hr {
 /* line 9, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1,
-.h1--center, .h2, .h2--hero, .h3, .h4, .h5, .h6 {
+.h1--center, .h2, .h2--hero, .product-suggestion__title, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -1852,9 +1852,10 @@ h6 .small,
 .h1 small,
 .h1--center small,
 .h1 .small,
-.h1--center .small, .h2 small, .h2--hero small,
+.h1--center .small, .h2 small, .h2--hero small, .product-suggestion__title small,
 .h2 .small,
-.h2--hero .small, .h3 small,
+.h2--hero .small,
+.product-suggestion__title .small, .h3 small,
 .h3 .small, .h4 small,
 .h4 .small, .h5 small,
 .h5 .small, .h6 small,
@@ -1866,7 +1867,7 @@ h6 .small,
 
 /* line 24, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1, .h1--center,
-h2, .h2, .h2--hero,
+h2, .h2, .h2--hero, .product-suggestion__title,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -1877,9 +1878,10 @@ h1 .small, .h1 small, .h1--center small,
 .h1 .small,
 .h1--center .small,
 h2 small,
-h2 .small, .h2 small, .h2--hero small,
+h2 .small, .h2 small, .h2--hero small, .product-suggestion__title small,
 .h2 .small,
 .h2--hero .small,
+.product-suggestion__title .small,
 h3 small,
 h3 .small, .h3 small,
 .h3 .small {
@@ -1912,7 +1914,7 @@ h1, .h1, .h1--center {
 }
 
 /* line 48, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
-h2, .h2, .h2--hero {
+h2, .h2, .h2--hero, .product-suggestion__title {
   font-size: 30px;
 }
 
@@ -1979,7 +1981,7 @@ mark,
 }
 
 /* line 92, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
-.text-center, .pull--center, .h1--center, .center, .center__btn, .btn, .btn--default, .btn--hero, .btn--primary, .dropdown__list--btn li, .breadcrumb-bar, .item__wrap, .quick-view, .footer__copy {
+.text-center, .pull--center, .h1--center, .center, .center__btn, .btn, .btn--default, .btn--hero, .btn--primary, .dropdown__list--btn li, .item__wrap, .quick-view, .footer__copy, .product-suggestion__title {
   text-align: center;
 }
 
@@ -2431,7 +2433,7 @@ pre code {
 }
 
 /* line 11, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer__col--2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-sm-4, .options__selection, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .two-col__1-of-2, .col-sm-6, .multi-col__col, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .page-content__options, .quick-view__carousel, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .two-col, .two-col--contact, .page-content__text, .product-grid, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .footer__copy, .col-sm-12, .hero-carousel, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer__col--2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-sm-4, .options__selection, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .two-col__1-of-2, .col-sm-6, .multi-col__col, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .page-content__options, .quick-view__carousel, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion, .col-sm-12, .hero-carousel, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2439,7 +2441,7 @@ pre code {
 }
 
 /* line 27, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .footer__col--2, .col-xs-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-xs-5, .col-xs-6, .two-col__1-of-2, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .footer__copy {
+.col-xs-1, .col-xs-2, .footer__col--2, .col-xs-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-xs-5, .col-xs-6, .two-col__1-of-2, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion {
   float: left;
 }
 
@@ -2499,7 +2501,7 @@ pre code {
 }
 
 /* line 35, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .footer__copy {
+.col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion {
   width: 100%;
 }
 
@@ -2700,7 +2702,7 @@ pre code {
 
 @media (min-width: 768px) {
   /* line 27, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .options__selection, .col-sm-5, .col-sm-6, .multi-col__col, .col-sm-7, .col-sm-8, .page-content__options, .quick-view__carousel, .col-sm-9, .col-sm-10, .two-col, .two-col--contact, .page-content__text, .product-grid, .col-sm-11, .col-sm-12, .hero-carousel {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .options__selection, .col-sm-5, .col-sm-6, .multi-col__col, .col-sm-7, .col-sm-8, .page-content__options, .quick-view__carousel, .col-sm-9, .col-sm-10, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion, .col-sm-11, .col-sm-12, .hero-carousel {
     float: left;
   }
 
@@ -2750,7 +2752,7 @@ pre code {
   }
 
   /* line 35, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-10, .two-col, .two-col--contact, .page-content__text, .product-grid {
+  .col-sm-10, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion {
     width: 83.33333%;
   }
 
@@ -2900,7 +2902,7 @@ pre code {
   }
 
   /* line 60, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-offset-1, .two-col, .two-col--contact, .page-content__text, .product-grid {
+  .col-sm-offset-1, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion {
     margin-left: 8.33333%;
   }
 
@@ -9129,7 +9131,7 @@ body {
 
 /* line 12, ../sass/_base.scss */
 a {
-  color: inherit;
+  color: #555555;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   -moz-transition: color, 0.4s, ease-in;
@@ -9148,7 +9150,7 @@ a:hover {
 }
 /* line 22, ../sass/_base.scss */
 a:focus {
-  color: #ffffff;
+  color: #ebb788;
   text-decoration: none !important;
 }
 
@@ -9182,11 +9184,15 @@ last update: 24/06/2016
 }
 
 /* line 35, ../sass/_typography.scss */
-.h2, .h2--hero {
+.h2, .h2--hero, .product-suggestion__title {
   font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
   margin: 0;
 }
-/* line 38, ../sass/_typography.scss */
+/* line 41, ../sass/_typography.scss */
 .h2--hero {
   font-weight: 700;
   font-size: 3.375em;
@@ -9194,7 +9200,7 @@ last update: 24/06/2016
   text-transform: uppercase;
 }
 
-/* line 46, ../sass/_typography.scss */
+/* line 49, ../sass/_typography.scss */
 .name {
   color: #555555;
   font-family: "Frank Ruhl Libre", sans-serif;
@@ -9206,7 +9212,7 @@ last update: 24/06/2016
   word-spacing: 0.1875em;
 }
 
-/* line 58, ../sass/_typography.scss */
+/* line 61, ../sass/_typography.scss */
 .paragraph, .paragraph--alpha, .paragraph--contact, .paragraph--hero {
   color: #9E9E9E;
   font-size: 0.875em;
@@ -9215,11 +9221,11 @@ last update: 24/06/2016
   font-weight: 300;
   margin-top: 0.625em;
 }
-/* line 64, ../sass/_typography.scss */
+/* line 67, ../sass/_typography.scss */
 .paragraph--alpha {
   margin-top: 0;
 }
-/* line 68, ../sass/_typography.scss */
+/* line 71, ../sass/_typography.scss */
 .paragraph--contact {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -9227,23 +9233,23 @@ last update: 24/06/2016
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 75, ../sass/_typography.scss */
+/* line 78, ../sass/_typography.scss */
 .paragraph--hero {
   color: #555555;
 }
 
-/* line 83, ../sass/_typography.scss */
-.fine-print, .item__wrap__details, .quick-view__product-spec, .gridder-nav, .gridder-close {
+/* line 86, ../sass/_typography.scss */
+.fine-print, .item__wrap__details, .quick-view__product-spec, .gridder-nav, .gridder-close, .product-details__spec {
   font-size: 0.75em;
   line-height: 1.5em;
 }
 
-/* line 86, ../sass/_typography.scss */
+/* line 89, ../sass/_typography.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 89, ../sass/_typography.scss */
+/* line 92, ../sass/_typography.scss */
 .section-title {
   font-family: "Frank Ruhl Libre", sans-serif;
   font-weight: 700;
@@ -9268,8 +9274,8 @@ last update: 21/06/2016
   overflow: hidden;
 }
 
-/* line 40, ../sass/_layout.scss */
-.two-col--contact {
+/* line 38, ../sass/_layout.scss */
+.two-col, .two-col--contact {
   margin-top: 4em;
 }
 
@@ -9405,10 +9411,14 @@ last update: 24/06/2016
 }
 
 /* line 90, ../sass/modules/_elements.scss */
+.v-list__item {
+  margin-top: 1em;
+}
+/* line 93, ../sass/modules/_elements.scss */
 .v-list__item--footer {
   margin-top: 0.33333em;
 }
-/* line 93, ../sass/modules/_elements.scss */
+/* line 96, ../sass/modules/_elements.scss */
 .v-list__link--footer {
   font-family: "Frank Ruhl Libre", sans-serif;
   font-weight: 700;
@@ -9417,44 +9427,44 @@ last update: 24/06/2016
   letter-spacing: 0.0625em;
 }
 
-/* line 103, ../sass/modules/_elements.scss */
+/* line 106, ../sass/modules/_elements.scss */
 .form-control, .navigation-form__search {
   border: 1px solid #ebb788;
   -moz-border-radius: 0.625em;
   -webkit-border-radius: 0.625em;
   border-radius: 0.625em;
 }
-/* line 106, ../sass/modules/_elements.scss */
+/* line 109, ../sass/modules/_elements.scss */
 .form-control:focus, .navigation-form__search:focus {
   outline-width: 0;
   outline: none;
   border: 1px solid #ebb788;
 }
 
-/* line 115, ../sass/modules/_elements.scss */
+/* line 118, ../sass/modules/_elements.scss */
 .newsletter-form {
   margin-top: 0.5em;
 }
 
-/* line 119, ../sass/modules/_elements.scss */
+/* line 122, ../sass/modules/_elements.scss */
 #email-input:focus {
   outline-width: 0;
   outline: none;
   border: 1px solid #ebb788;
 }
 
-/* line 130, ../sass/modules/_elements.scss */
+/* line 133, ../sass/modules/_elements.scss */
 .breadcrumb-bar__list {
   background-color: transparent;
   padding: 0 0 0.5em 0;
 }
 @media only screen and (min-width: 62em) {
-  /* line 130, ../sass/modules/_elements.scss */
+  /* line 133, ../sass/modules/_elements.scss */
   .breadcrumb-bar__list {
     padding: 1em 1.2em;
   }
 }
-/* line 141, ../sass/modules/_elements.scss */
+/* line 144, ../sass/modules/_elements.scss */
 .breadcrumb-bar__link, .breadcrumb-bar__link--active {
   font-size: 0.8125em;
   line-height: 1.38462em;
@@ -9462,12 +9472,12 @@ last update: 24/06/2016
   letter-spacing: 0.0625em;
   color: #555555;
 }
-/* line 147, ../sass/modules/_elements.scss */
+/* line 150, ../sass/modules/_elements.scss */
 .breadcrumb-bar__link--active {
   color: #ebb788;
 }
 
-/* line 152, ../sass/modules/_elements.scss */
+/* line 155, ../sass/modules/_elements.scss */
 .breadcrumb-bar__list > li + li:before {
   content: "|";
   padding: 0 0.375em;
@@ -9883,6 +9893,19 @@ last update: 24/06/2016
   width: 100%;
   height: auto;
 }
+/* line 13, ../sass/modules/_carousel.scss */
+.carousel--suggestion {
+  margin-top: 2em;
+}
+/* line 16, ../sass/modules/_carousel.scss */
+.carousel--suggestion img {
+  width: 100%;
+  height: auto;
+}
+/* line 21, ../sass/modules/_carousel.scss */
+.carousel__item {
+  margin-right: 1.25em;
+}
 
 /* line 2, ../sass/modules/_contact.scss */
 .contact-info__title {
@@ -9953,6 +9976,77 @@ last update: 24/06/2016
 .dropdown__link--footer:hover {
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
+}
+
+/* line 2, ../sass/modules/_product-page.scss */
+.product-details__spec {
+  color: #555555;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+}
+/* line 11, ../sass/modules/_product-page.scss */
+.product-details__more:before {
+  content: "View more from the";
+}
+/* line 14, ../sass/modules/_product-page.scss */
+.product-details__more:after {
+  content: "collection";
+}
+/* line 17, ../sass/modules/_product-page.scss */
+.product-details__nav {
+  margin-top: 2em;
+  border-top-width: 0.0625em;
+  border-top-style: solid;
+  border-top-color: #555555;
+  padding-top: 0.3125em;
+}
+/* line 21, ../sass/modules/_product-page.scss */
+.product-details__social {
+  margin-top: 1.2em;
+  border-top-width: 0.0625em;
+  border-top-style: solid;
+  border-top-color: #555555;
+  padding-top: 0.3125em;
+}
+/* line 24, ../sass/modules/_product-page.scss */
+.product-details__social .h-list {
+  margin-top: 0.33333em;
+}
+/* line 28, ../sass/modules/_product-page.scss */
+.product-details__pagination {
+  margin-top: 1em;
+  border-top-width: 0.0625em;
+  border-top-style: solid;
+  border-top-color: #555555;
+  padding-top: 0.3125em;
+}
+/* line 32, ../sass/modules/_product-page.scss */
+.product-details__link {
+  text-transform: uppercase;
+}
+
+/* line 36, ../sass/modules/_product-page.scss */
+.product-suggestion {
+  margin-top: 8em;
+}
+
+/** Slies JS style overwrite **/
+/* line 12, ../sass/modules/_product-images.scss */
+.slidesjs-pagination li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 18%;
+  margin-top: 1em;
+  margin-right: 2.5%;
+}
+/* line 18, ../sass/modules/_product-images.scss */
+.slidesjs-pagination li img {
+  width: 100%;
+  height: auto;
+}
+/* line 23, ../sass/modules/_product-images.scss */
+.slidesjs-pagination li:nth-child(5n+5) {
+  margin-right: 0;
 }
 
 /* line 2, ../sass/_states.scss */
