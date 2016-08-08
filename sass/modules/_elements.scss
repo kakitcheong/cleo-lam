@@ -12,6 +12,7 @@ last update: 24/06/2016
 //		- v-list
 //	- form elements
 //  - breadcrumb-bar
+//  - fancybox
 // ---------------------
 ////////////////////////////////////////////////////////////////////////////////
 //  1. bottons                                                        		  //
@@ -96,29 +97,27 @@ last update: 24/06/2016
 	&__link--footer{
 		font-family: $heading__font-family;
 		font-weight: 700;
-		@include adjust-font-size-to(15px);
+		@include adjust-font-size-to(13px);
 		letter-spacing: em(1);
 	}
 }
 ////////////////////////////////////////////////////////////////////////////////
-//  2. form elements                                                       	  //
+//  3. form elements                                                       	  //
 ////////////////////////////////////////////////////////////////////////////////
-.form-control{
-	border: $el__border;
-	@include border-radius();
+input{
 	&:focus{
 		outline-width: 0;
 		outline: none;
-		border: $el__border; 
+		@include box-shadow(0 0 0 rgba(0, 0, 0, 0) !important);
+		@include input-placeholder{
+			color: $color__grey--dark;
+		}
 	}
 }
-////////////////////////////////////////////////////////////////////////////////
-//  3. misc.                                                        		  //
-////////////////////////////////////////////////////////////////////////////////
-.newsletter-form{
-	margin-top: $el__spacer--xs/2;
-}
-#email-input{
+
+.form-control{
+	border: $el__border;
+	@include border-radius();
 	&:focus{
 		outline-width: 0;
 		outline: none;
@@ -156,4 +155,24 @@ last update: 24/06/2016
 	content: "|";
 	padding: 0 em(6);
 	color: $color__accent;
+}
+////////////////////////////////////////////////////////////////////////////////
+//  4. fancybox                                                               //
+////////////////////////////////////////////////////////////////////////////////
+.fancybox-skin{
+	@include border-radius();
+	@include box-shadow(0 0 0 rgba(0, 0, 0, 0) !important);
+}
+////////////////////////////////////////////////////////////////////////////////
+//  5. misc.                                                        		  //
+////////////////////////////////////////////////////////////////////////////////
+.newsletter-form{
+	margin-top: $el__spacer--xs/2;
+}
+#email-input{
+	&:focus{
+		outline-width: 0;
+		outline: none;
+		border: $el__border; 
+	}
 }

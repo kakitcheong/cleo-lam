@@ -41,8 +41,9 @@ last update: 24/06/2016
 	&--hero{
 		@extend .h2;
 		font-weight: 700;
-		@include adjust-font-size-to(54px);
+		@include adjust-font-size-to(48px);
 		text-transform: uppercase;
+		letter-spacing: em(-1);
 	}
 }
 // h3
@@ -92,5 +93,5 @@ last update: 24/06/2016
 .section-title{
 	font-family: $heading__font-family;
 	font-weight: 700;
-	@include adjust-font-size-to(15px);
+	@include adjust-font-size-to(13px);
 }

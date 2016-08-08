@@ -1,6 +1,21 @@
 @import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'compass';
 @include global-reset;
+@font-face {
+    font-family: 'hero_light';
+    src: url('../fonts/hero-light/hero_light-webfont.woff2') format('woff2'),
+         url('../fonts/hero-light/hero_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'BanglaMN';
+  src: url('../fonts/bangla/BanglaMN.eot') format('embedded-opentype'),
+	   url('../fonts/bangla/BanglaMN.ttf')  format('truetype'), 
+	   url('../fonts/bangla/BanglaMN.svg#BanglaMN') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /*** return em ***/
 $browser-context: 16;
 @function em($pixels, $context: $browser-context){

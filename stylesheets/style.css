@@ -2433,7 +2433,7 @@ pre code {
 }
 
 /* line 11, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer__col--2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-sm-4, .options__selection, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .two-col__1-of-2, .col-sm-6, .multi-col__col, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .page-content__options, .quick-view__carousel, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion, .col-sm-12, .hero-carousel, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer__col--2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-sm-4, .options__selection, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .two-col__1-of-2, .col-sm-6, .multi-col__col, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .page-content__options, .quick-view__carousel, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .two-col, .two-col--contact, .two-col--ajax, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .two-col, .two-col--contact, .two-col--ajax, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion, .col-sm-12, .two-col--ajax, .hero-carousel, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2441,7 +2441,7 @@ pre code {
 }
 
 /* line 27, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .footer__col--2, .col-xs-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-xs-5, .col-xs-6, .two-col__1-of-2, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion {
+.col-xs-1, .col-xs-2, .footer__col--2, .col-xs-3, .col-xs-4, .product-grid__item, .footer__col--4, .col-xs-5, .col-xs-6, .two-col__1-of-2, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .two-col, .two-col--contact, .two-col--ajax, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion {
   float: left;
 }
 
@@ -2501,7 +2501,7 @@ pre code {
 }
 
 /* line 35, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12, .two-col, .two-col--contact, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion {
+.col-xs-12, .two-col, .two-col--contact, .two-col--ajax, .multi-col__col, .page-content__title, .page-content__text, .page-content__nav, .page-content__options, .options__selection, .product-grid, .quick-view__carousel, .quick-view__details, .carousel--suggestion, .footer__copy, .product-suggestion {
   width: 100%;
 }
 
@@ -2702,7 +2702,7 @@ pre code {
 
 @media (min-width: 768px) {
   /* line 27, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .options__selection, .col-sm-5, .col-sm-6, .multi-col__col, .col-sm-7, .col-sm-8, .page-content__options, .quick-view__carousel, .col-sm-9, .col-sm-10, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion, .col-sm-11, .col-sm-12, .hero-carousel {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .options__selection, .col-sm-5, .col-sm-6, .multi-col__col, .col-sm-7, .col-sm-8, .page-content__options, .quick-view__carousel, .col-sm-9, .col-sm-10, .two-col, .two-col--contact, .two-col--ajax, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion, .col-sm-11, .col-sm-12, .two-col--ajax, .hero-carousel {
     float: left;
   }
 
@@ -2752,7 +2752,7 @@ pre code {
   }
 
   /* line 35, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-10, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion {
+  .col-sm-10, .two-col, .two-col--contact, .two-col--ajax, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion {
     width: 83.33333%;
   }
 
@@ -2762,7 +2762,7 @@ pre code {
   }
 
   /* line 35, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-12, .hero-carousel {
+  .col-sm-12, .two-col--ajax, .hero-carousel {
     width: 100%;
   }
 
@@ -2897,12 +2897,12 @@ pre code {
   }
 
   /* line 60, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-offset-0 {
+  .col-sm-offset-0, .two-col--ajax {
     margin-left: 0%;
   }
 
   /* line 60, ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-offset-1, .two-col, .two-col--contact, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion {
+  .col-sm-offset-1, .two-col, .two-col--contact, .two-col--ajax, .breadcrumb-bar, .page-content__text, .product-grid, .carousel--suggestion {
     margin-left: 8.33333%;
   }
 
@@ -9091,6 +9091,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+@font-face {
+  font-family: 'hero_light';
+  src: url("../fonts/hero-light/hero_light-webfont.woff2") format("woff2"), url("../fonts/hero-light/hero_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BanglaMN';
+  src: url("../fonts/bangla/BanglaMN.eot") format("embedded-opentype"), url("../fonts/bangla/BanglaMN.ttf") format("truetype"), url("../fonts/bangla/BanglaMN.svg#BanglaMN") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /*** return em ***/
 /****** media queries mixin ******/
 /*** break points ***/
@@ -9126,13 +9138,13 @@ html {
 /* line 8, ../sass/_base.scss */
 body {
   background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "hero_light", sans-serif;
 }
 
 /* line 12, ../sass/_base.scss */
 a {
   color: #555555;
-  font-family: "Raleway", sans-serif;
+  font-family: "hero_light", sans-serif;
   text-decoration: none;
   -moz-transition: color, 0.4s, ease-in;
   -o-transition: color, 0.4s, ease-in;
@@ -9173,7 +9185,7 @@ last update: 24/06/2016
 ===================================================== ***/
 /* line 22, ../sass/_typography.scss */
 .h1, .h1--center {
-  font-family: "Frank Ruhl Libre", sans-serif;
+  font-family: "BanglaMN", sans-serif;
   font-size: 1.5em;
   line-height: 1.25em;
   font-weight: 700;
@@ -9185,7 +9197,7 @@ last update: 24/06/2016
 
 /* line 35, ../sass/_typography.scss */
 .h2, .h2--hero, .product-suggestion__title {
-  font-family: "Frank Ruhl Libre", sans-serif;
+  font-family: "BanglaMN", sans-serif;
   font-size: 1.125em;
   line-height: 1.33333em;
   font-weight: 700;
@@ -9195,15 +9207,16 @@ last update: 24/06/2016
 /* line 41, ../sass/_typography.scss */
 .h2--hero {
   font-weight: 700;
-  font-size: 3.375em;
-  line-height: 1.11111em;
+  font-size: 3em;
+  line-height: 1.125em;
   text-transform: uppercase;
+  letter-spacing: -0.0625em;
 }
 
-/* line 49, ../sass/_typography.scss */
+/* line 50, ../sass/_typography.scss */
 .name {
   color: #555555;
-  font-family: "Frank Ruhl Libre", sans-serif;
+  font-family: "BanglaMN", sans-serif;
   font-weight: 700;
   font-size: 1.5em;
   line-height: 1.25em;
@@ -9212,7 +9225,7 @@ last update: 24/06/2016
   word-spacing: 0.1875em;
 }
 
-/* line 61, ../sass/_typography.scss */
+/* line 62, ../sass/_typography.scss */
 .paragraph, .paragraph--alpha, .paragraph--contact, .paragraph--hero {
   color: #9E9E9E;
   font-size: 0.875em;
@@ -9221,40 +9234,40 @@ last update: 24/06/2016
   font-weight: 300;
   margin-top: 0.625em;
 }
-/* line 67, ../sass/_typography.scss */
+/* line 68, ../sass/_typography.scss */
 .paragraph--alpha {
   margin-top: 0;
 }
-/* line 71, ../sass/_typography.scss */
+/* line 72, ../sass/_typography.scss */
 .paragraph--contact {
-  font-family: "Raleway", sans-serif;
+  font-family: "hero_light", sans-serif;
   font-weight: 400;
   color: #555555;
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 78, ../sass/_typography.scss */
+/* line 79, ../sass/_typography.scss */
 .paragraph--hero {
   color: #555555;
 }
 
-/* line 86, ../sass/_typography.scss */
-.fine-print, .item__wrap__details, .quick-view__product-spec, .gridder-nav, .gridder-close, .product-details__spec {
+/* line 87, ../sass/_typography.scss */
+.fine-print, .item__wrap__details, .quick-view__product-spec, .product-details__spec {
   font-size: 0.75em;
   line-height: 1.5em;
 }
 
-/* line 89, ../sass/_typography.scss */
+/* line 90, ../sass/_typography.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 92, ../sass/_typography.scss */
+/* line 93, ../sass/_typography.scss */
 .section-title {
-  font-family: "Frank Ruhl Libre", sans-serif;
+  font-family: "BanglaMN", sans-serif;
   font-weight: 700;
-  font-size: 0.9375em;
-  line-height: 1.6em;
+  font-size: 0.8125em;
+  line-height: 1.38462em;
 }
 
 /*** =====================================================
@@ -9275,34 +9288,38 @@ last update: 21/06/2016
 }
 
 /* line 38, ../sass/_layout.scss */
-.two-col, .two-col--contact {
+.two-col, .two-col--contact, .two-col--ajax {
   margin-top: 4em;
 }
+/* line 47, ../sass/_layout.scss */
+.two-col--ajax {
+  margin-top: 0;
+}
 
-/* line 70, ../sass/_layout.scss */
+/* line 76, ../sass/_layout.scss */
 .color__accent {
   color: #ebb788;
 }
 
-/* line 73, ../sass/_layout.scss */
+/* line 79, ../sass/_layout.scss */
 .push--down {
   margin-top: 1em;
 }
 
 /*** javascript hook for putting img into it's parent's background ***/
-/* line 77, ../sass/_layout.scss */
+/* line 83, ../sass/_layout.scss */
 .bg__img {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 87, ../sass/_layout.scss */
+/* line 93, ../sass/_layout.scss */
 .center__btn {
   margin-top: 1em;
 }
 @media only screen and (min-width: 48em) {
-  /* line 87, ../sass/_layout.scss */
+  /* line 93, ../sass/_layout.scss */
   .center__btn {
     margin-top: 2em;
   }
@@ -9323,11 +9340,11 @@ This document contains all elements used in the application
 author: kc-slg
 last update: 24/06/2016
 ===================================================== ***/
-/* line 19, ../sass/modules/_elements.scss */
+/* line 20, ../sass/modules/_elements.scss */
 .btn, .btn--default, .btn--hero, .btn--primary {
   display: inline-block;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "hero_light", sans-serif;
   font-size: 0.8125em;
   line-height: 1.38462em;
   letter-spacing: 0.0625em;
@@ -9335,7 +9352,7 @@ last update: 24/06/2016
   -webkit-border-radius: 0.625em;
   border-radius: 0.625em;
 }
-/* line 28, ../sass/modules/_elements.scss */
+/* line 29, ../sass/modules/_elements.scss */
 .btn--default {
   color: #ebb788;
   border: 1px solid #ebb788;
@@ -9344,16 +9361,16 @@ last update: 24/06/2016
   -webkit-transition: color, 0.4s, ease-in-out;
   transition: color, 0.4s, ease-in-out;
 }
-/* line 34, ../sass/modules/_elements.scss */
+/* line 35, ../sass/modules/_elements.scss */
 .btn--default:hover {
   color: #555555;
   background-color: #ffffff;
 }
-/* line 38, ../sass/modules/_elements.scss */
+/* line 39, ../sass/modules/_elements.scss */
 .btn--default:focus {
   color: #555555;
 }
-/* line 41, ../sass/modules/_elements.scss */
+/* line 42, ../sass/modules/_elements.scss */
 .btn--hero {
   color: #555555;
   border: 1px solid #555555;
@@ -9362,18 +9379,18 @@ last update: 24/06/2016
   -webkit-transition: color, 0.4s, ease-in-out;
   transition: color, 0.4s, ease-in-out;
 }
-/* line 47, ../sass/modules/_elements.scss */
+/* line 48, ../sass/modules/_elements.scss */
 .btn--hero:hover {
   color: #ebb788;
   border: 1px solid #ebb788;
 }
-/* line 51, ../sass/modules/_elements.scss */
+/* line 52, ../sass/modules/_elements.scss */
 .btn--primary {
   color: #ffffff;
   background-color: #ebb788;
 }
 
-/* line 57, ../sass/modules/_elements.scss */
+/* line 58, ../sass/modules/_elements.scss */
 .dropdown__list--btn {
   width: 100%;
   -moz-box-shadow: inset 0 0 0 0 transparent;
@@ -9384,87 +9401,100 @@ last update: 24/06/2016
   border-radius: 0.625em;
   background-color: #ebb788;
 }
-/* line 65, ../sass/modules/_elements.scss */
+/* line 66, ../sass/modules/_elements.scss */
 .dropdown__list--btn li a {
   padding-top: 0.5em;
   color: #ffffff;
 }
 
-/* line 74, ../sass/modules/_elements.scss */
+/* line 75, ../sass/modules/_elements.scss */
 .h-list {
   margin: 0 auto;
 }
-/* line 76, ../sass/modules/_elements.scss */
+/* line 77, ../sass/modules/_elements.scss */
 .h-list__item {
   display: inline;
   margin-right: 1em;
 }
-/* line 79, ../sass/modules/_elements.scss */
+/* line 80, ../sass/modules/_elements.scss */
 .h-list__item div {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 84, ../sass/modules/_elements.scss */
+/* line 85, ../sass/modules/_elements.scss */
 .h-list__link {
   display: inline-block;
   width: auto;
 }
 
-/* line 90, ../sass/modules/_elements.scss */
+/* line 91, ../sass/modules/_elements.scss */
 .v-list__item {
   margin-top: 1em;
 }
-/* line 93, ../sass/modules/_elements.scss */
+/* line 94, ../sass/modules/_elements.scss */
 .v-list__item--footer {
   margin-top: 0.33333em;
 }
-/* line 96, ../sass/modules/_elements.scss */
+/* line 97, ../sass/modules/_elements.scss */
 .v-list__link--footer {
-  font-family: "Frank Ruhl Libre", sans-serif;
+  font-family: "BanglaMN", sans-serif;
   font-weight: 700;
-  font-size: 0.9375em;
-  line-height: 1.6em;
+  font-size: 0.8125em;
+  line-height: 1.38462em;
   letter-spacing: 0.0625em;
 }
 
-/* line 106, ../sass/modules/_elements.scss */
+/* line 108, ../sass/modules/_elements.scss */
+input:focus {
+  outline-width: 0;
+  outline: none;
+  -moz-box-shadow: 0 0 0 transparent !important;
+  -webkit-box-shadow: 0 0 0 transparent !important;
+  box-shadow: 0 0 0 transparent !important;
+}
+/* line 61, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input:focus:-moz-placeholder {
+  color: #191919;
+}
+/* line 64, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input:focus::-moz-placeholder {
+  color: #191919;
+}
+/* line 67, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input:focus:-ms-input-placeholder {
+  color: #191919;
+}
+/* line 56, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_user-interface.scss */
+input:focus::-webkit-input-placeholder {
+  color: #191919;
+}
+
+/* line 118, ../sass/modules/_elements.scss */
 .form-control, .navigation-form__search {
   border: 1px solid #ebb788;
   -moz-border-radius: 0.625em;
   -webkit-border-radius: 0.625em;
   border-radius: 0.625em;
 }
-/* line 109, ../sass/modules/_elements.scss */
+/* line 121, ../sass/modules/_elements.scss */
 .form-control:focus, .navigation-form__search:focus {
   outline-width: 0;
   outline: none;
   border: 1px solid #ebb788;
 }
 
-/* line 118, ../sass/modules/_elements.scss */
-.newsletter-form {
-  margin-top: 0.5em;
-}
-
-/* line 122, ../sass/modules/_elements.scss */
-#email-input:focus {
-  outline-width: 0;
-  outline: none;
-  border: 1px solid #ebb788;
-}
-
-/* line 133, ../sass/modules/_elements.scss */
+/* line 132, ../sass/modules/_elements.scss */
 .breadcrumb-bar__list {
   background-color: transparent;
   padding: 0 0 0.5em 0;
 }
 @media only screen and (min-width: 62em) {
-  /* line 133, ../sass/modules/_elements.scss */
+  /* line 132, ../sass/modules/_elements.scss */
   .breadcrumb-bar__list {
     padding: 1em 1.2em;
   }
 }
-/* line 144, ../sass/modules/_elements.scss */
+/* line 143, ../sass/modules/_elements.scss */
 .breadcrumb-bar__link, .breadcrumb-bar__link--active {
   font-size: 0.8125em;
   line-height: 1.38462em;
@@ -9472,16 +9502,38 @@ last update: 24/06/2016
   letter-spacing: 0.0625em;
   color: #555555;
 }
-/* line 150, ../sass/modules/_elements.scss */
+/* line 149, ../sass/modules/_elements.scss */
 .breadcrumb-bar__link--active {
   color: #ebb788;
 }
 
-/* line 155, ../sass/modules/_elements.scss */
+/* line 154, ../sass/modules/_elements.scss */
 .breadcrumb-bar__list > li + li:before {
   content: "|";
   padding: 0 0.375em;
   color: #ebb788;
+}
+
+/* line 162, ../sass/modules/_elements.scss */
+.fancybox-skin {
+  -moz-border-radius: 0.625em;
+  -webkit-border-radius: 0.625em;
+  border-radius: 0.625em;
+  -moz-box-shadow: 0 0 0 transparent !important;
+  -webkit-box-shadow: 0 0 0 transparent !important;
+  box-shadow: 0 0 0 transparent !important;
+}
+
+/* line 169, ../sass/modules/_elements.scss */
+.newsletter-form {
+  margin-top: 0.5em;
+}
+
+/* line 173, ../sass/modules/_elements.scss */
+#email-input:focus {
+  outline-width: 0;
+  outline: none;
+  border: 1px solid #ebb788;
 }
 
 /* line 1, ../sass/modules/_centered-content.scss */
@@ -9659,7 +9711,7 @@ last update: 24/06/2016
 }
 /* line 116, ../sass/modules/_header.scss */
 .navigation-form__search {
-  font-family: "Raleway", sans-serif;
+  font-family: "hero_light", sans-serif;
   font-size: 0.8125em;
   line-height: 1.38462em;
   text-transform: uppercase;
@@ -9727,7 +9779,7 @@ last update: 24/06/2016
 @media only screen and (min-width: 62em) {
   /* line 39, ../sass/modules/_hero-carousel.scss */
   .hero-carousel-slide__container {
-    width: 40%;
+    width: 60%;
   }
 }
 /* line 48, ../sass/modules/_hero-carousel.scss */
@@ -9794,7 +9846,7 @@ last update: 24/06/2016
 /* line 29, ../sass/modules/_product-grid.scss */
 .item__wrap__name {
   color: #555555;
-  font-family: "Raleway", sans-serif;
+  font-family: "hero_light", sans-serif;
   font-size: 2.375em;
   line-height: 1.10526em;
   text-transform: uppercase;
@@ -9834,51 +9886,15 @@ last update: 24/06/2016
   color: #555555;
 }
 
-/* line 64, ../sass/modules/_product-grid.scss */
-.gridder-list {
-  display: inline-block;
-  position: relative;
-  vertical-align: top;
-}
-
-/* line 69, ../sass/modules/_product-grid.scss */
-.gridder-show {
-  padding: 4em;
-}
-
-/* line 72, ../sass/modules/_product-grid.scss */
-.gridder-close {
-  float: right;
-  clear: both;
-}
-
-/* line 76, ../sass/modules/_product-grid.scss */
-.gridder-nav, .gridder-close {
-  color: #9E9E9E;
-  text-transform: uppercase;
-}
-
-/* line 82, ../sass/modules/_product-grid.scss */
-.gridder-nav:focus {
-  color: #ebb788;
-}
-
-/* line 86, ../sass/modules/_product-grid.scss */
-.gridder-nav.next:before {
-  content: "|";
-  color: #000000;
-  padding: 0 1em;
-}
-
-/* line 94, ../sass/modules/_product-grid.scss */
+/* line 65, ../sass/modules/_product-grid.scss */
 .quick-view__carousel {
   margin-top: 2em;
 }
-/* line 98, ../sass/modules/_product-grid.scss */
+/* line 69, ../sass/modules/_product-grid.scss */
 .quick-view__details {
   margin-top: 1em;
 }
-/* line 105, ../sass/modules/_product-grid.scss */
+/* line 76, ../sass/modules/_product-grid.scss */
 .quick-view__nav {
   margin-top: 2em;
 }
@@ -9909,7 +9925,7 @@ last update: 24/06/2016
 
 /* line 2, ../sass/modules/_contact.scss */
 .contact-info__title {
-  font-family: "Raleway", sans-serif;
+  font-family: "hero_light", sans-serif;
   font-size: 1.375em;
   line-height: 1.36364em;
   text-transform: uppercase;
